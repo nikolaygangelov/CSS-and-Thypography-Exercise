@@ -1,0 +1,38 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+}
+
+blockquote {
+    border-left: 2px solid black;
+    font-style: italic;
+    padding-left: 2em;
+}
+
+td, th {
+    border: 1px solid navy;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table thead th {
+    background-color: lightblue;
+    color: black;
+}
+
+table tbody tr:nth-child(odd) td {
+    background-color: rgb(228, 241, 245);
+    color: black; 
+}
+
+table tfoot tr {
+    background-color: rgb(228, 241, 245);
+    color: black; 
+}
